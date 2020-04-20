@@ -40,13 +40,34 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express: fast, unopinionated, minimalist web framework for Node.js.
+Express is a minimal and flexible Node.js web application framework.
+Express provides a thin layer of foundational web application features. 
+
+
 - [ ] Describe Middleware?
+
+Middleware provides a way to extend the features provided extra function to the application by the Express framework. We can use the build in Middleware, or build our own one as we need in our app.
+
 
 - [ ] Describe a Resource?
 
+A resource is an item or an object inside the data.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+What can the API return to help clients know if a request was successful?
+REST APIs use the status-line part of an HTTP response message to inform client’s request status.
+1xx: informational
+2xx: success
+3xx: redirection
+4xx: client error
+5xx: server error
+
 - [ ] How can we partition our application into sub-applications?
+
+Use rout and paths to partition application into sub-application. 
+
 
 ## Minimum Viable Product
 
